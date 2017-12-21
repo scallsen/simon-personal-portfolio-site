@@ -1,0 +1,31 @@
+:root {
+  --color-primary: #3949ab;
+  --color-primary-light: #f8fdff;
+  --color-primary-dark: #00227b;
+  --color-accent: #26c6da;
+  --color-accent-light: #6ff9ff;
+  --color-accent-dark: #0095a8;
+  --color-primary-text: #212121;
+  --color-secondary-text: #757575;
+  --color-divider: #bdbdbd;
+  --color-white: #fff;
+  --color-focus: #6ff9ff;
+
+  --font-primary: "Nunito", sans-serif;
+  --font-secondary: "Nunito Sans", sans-serif;
+
+}
+
+html {
+  font-family: var(--font-primary);
+  color: var(--color-primary-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+  font-weight: 500;
+}
+
+.white {
+  color: white;
+}
