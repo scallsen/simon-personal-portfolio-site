@@ -1,0 +1,353 @@
+/*This is a compilation of all CSS files from the Pattern Library that was used to develop the overall look and feel from this website*/
+
+/*BUTTONS*/
+
+.btn {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  border-radius: 30px;
+  padding-left: 1em;
+  padding-right: 1em;
+
+  box-shadow: 0 2px 2px #888;
+
+  color: #fff;
+
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+
+  color: #fff;
+}
+
+.btn-special {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+
+  color: var(--color-white);
+}
+
+.btn-special:hover {
+  background-color: var(--color-accent-dark);
+  border-color: var(--color-accent-dark);
+
+  color: var(--color-white);
+}
+
+.btn-ghost {
+  color: var(--color-primary);
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  box-shadow: none;
+}
+
+.btn-ghost:hover {
+  background-color: #e8e8e8;
+  border-color: #e8e8e8;
+
+  color: var(--color-primary);
+}
+
+.btn-light {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+
+  color: var(--color-primary);
+}
+
+.btn-light:hover {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+
+  color: #fff;
+}
+
+/*CARDS*/
+
+.card {
+  border: 4px solid var(--color-primary-light);
+  border-radius: 4px;
+  text-align: left;
+}
+
+.link-card {
+  text-decoration: none;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border: none;
+  box-shadow: 0 2px 1px #888;
+}
+
+.link-card:hover {
+  background-color: var(--color-accent);
+}
+
+.image-card {
+  padding: 0;
+  border: none;
+  box-shadow: 0 2px 1px #888;
+  background-color: var(--color-white);
+}
+
+.card-btn {
+  text-align: left;
+}
+
+.dog-name {
+  bottom: 0;
+  left: 0;
+  color: #fff;
+}
+
+/*FOOTER*/
+
+.footer-nav {
+  /*background-color: var(--color-primary-light);*/
+  padding: 2rem 0;
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.footer-link {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+/*NAVIGATION*/
+
+.top-bar {
+  background-color: var(--color-primary-dark);
+  height: 8em;
+}
+
+.bot-bar {
+  background-color: var(--color-primary);
+  box-shadow: 0 2px 1px #888;
+}
+
+.nav-btn {
+  text-align: center;
+  width: 6em;
+}
+
+.nav-btn-text, .nav-btn-icon {
+  color: white;
+}
+
+.current-page {
+  border-bottom: 3px solid var(--color-accent);
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+#nav-link:hover #nav-link-item,
+#nav-link2:hover #nav-link-item2,
+#nav-link3:hover #nav-link-item3,
+#nav-link4:hover #nav-link-item4 {
+  color: var(--color-accent);
+}
+
+#nav-link:hover #nav-link-img,
+#nav-link2:hover #nav-link-img2,
+#nav-link3:hover #nav-link-img3,
+#nav-link4:hover #nav-link-img4 {
+  color: var(--color-accent);
+}
+
+.page-nav-card {
+  background-color: #f1f1f1;
+  width: 20em;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 2px 1px #888;
+}
+
+.page-nav-icon {
+  color: var(--color-primary-text);
+}
+
+.page-nav-icon:hover {
+  color: var(--color-accent);
+}
+
+.logo {
+  width: 10rem;
+}
+
+.center-nav {
+  margin: auto;
+  width: 90%;
+}
+
+/*SECTIONS*/
+
+/*cta-banner*/
+
+.cta-section {
+  background-color: var(--color-primary-light);
+  vertical-align: middle;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.top-section-img {
+  max-width: 15rem;
+}
+
+.bot-section-img {
+  display: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .top-section-img {
+    display: none;
+  }
+
+  .bot-section-img {
+    display: block;
+  }
+
+}
+
+/*home-image-banner*/
+
+.home-image-banner-container {
+  align-items: center;
+  background-color: var(--color-primary-light);
+  padding-bottom: 2rem;
+  text-align: center;
+  padding-top: 0;
+}
+
+.home-section-2 {
+  text-align: center;
+}
+
+.content {
+  margin: auto;
+}
+
+.adopt-section-text {
+  padding: 0 1rem;
+  display: block;
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.card-container {
+  padding-bottom: 2rem;
+}
+
+/* .container IS ONLY USED FOR THE CONTAINER THAT CONTAINS THIS ELEMENT WHEN BEING USED AS AN ACTUAL ELEMENT */
+
+.container {
+  margin: auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .container {
+    width: 90%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .container {
+    width: 80%;
+  }
+
+}
+
+/*image-grid*/
+
+.home-image-banner-container {
+  align-items: center;
+  background-color: var(--color-primary-light);
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.home-section-2 {
+  text-align: center;
+}
+
+.content {
+  margin: auto;
+}
+
+.adopt-section-text {
+  padding: 0 1rem;
+  display: block;
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.card-container {
+  padding-bottom: 2rem;
+  left: 0;
+  right: 0;
+}
+
+.center-nav {
+  margin: auto;
+  width: 90%;
+}
+
+/* .container IS ONLY USED FOR THE CONTAINER THAT CONTAINS THIS ELEMENT WHEN BEING USED AS AN ACTUAL ELEMENT */
+
+.container {
+  margin: auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .center-nav {
+    margin: auto;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .center-nav {
+    margin: auto;
+    width: 40%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .center-nav {
+    margin: auto;
+    width: 30%;
+  }
+
+  .container {
+    width: 80%;
+  }
+}
+
+/*text-span-section*/
+
+.text-span-section {
+  background-color: var(--color-primary);
+  vertical-align: middle;
+}
+
+.text-span-section-text {
+  text-align: center;
+  color: var(--color-white);
+  font-weight: 500;
+}
