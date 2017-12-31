@@ -1,10 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Simon Callsen | Home</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="/css/modules.css" rel="stylesheet">
+  <link href="/css/grid.css" rel="stylesheet">
+  <link href="/css/type.css" rel="stylesheet">
+  <link href="/css/theme.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700|Nunito:400,700" rel="stylesheet">
+
+</head>
+<body>
+
+  <header class="">
+  <div class="top-bar">
+    <div class="max-length">
+      <img class="white img-flex logo" src="images/logo.svg" alt="">
+    </div>
+  </div>
+  <div class="bot-bar">
+    <nav class="max-length">
+      <ul class="list-group list-group-inline push-0">
+        <li>
+          <a class="nav-link" id="nav-link" href="/index">
+            <div class="pad-t-1-2 nav-btn current-page">
+              <div class="block">
+                <i id="nav-link-img" class="nav-btn-icon icon i-32"><svg><use xlink:href="images/icons.svg#icon-home" /></svg></i>
+              </div>
+              <div class="push-1-2 block">
+                <span class="micro nav-btn-text" id="nav-link-item">HOME</span>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a class="nav-link" id="nav-link2" href="/work">
+            <div class="pad-t-1-2 nav-btn">
+              <div class="block">
+                <i id="nav-link-img2" class="nav-btn-icon icon i-32"><svg><use xlink:href="images/icons.svg#icon-work" /></svg></i>
+              </div>
+              <div class="push-1-2 block">
+                <span class="micro nav-btn-text" id="nav-link-item2">WORK</span>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a class="nav-link" id="nav-link3" href="#contact-me">
+            <div class="pad-t-1-2 nav-btn">
+              <div class="block">
+                <i id="nav-link-img3" class="nav-btn-icon icon i-32"><svg><use xlink:href="images/icons.svg#icon-contact" /></svg></i>
+              </div>
+              <div class="push-1-2 block">
+                <span class="micro nav-btn-text" id="nav-link-item3">CONTACT</span>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+</header>
+
 <section class="cta-section">
   <div class="max-length grid gutter-2">
     <div class="unit xs-1 s-1 m-1 l-1 xl-1">
       <h1>Hey there.</h1>
       <p>I'm a multidisciplinary Graphic Designer based in Ottawa, Ontario.</p>
       <p>I am currently employed, but always looking for freelance opportunities, feel free to contact me to get something started.</p>
-      <a class="btn micro gutter" href="#">BROWSE MY WORK</a>
+      <a class="btn micro gutter" href="/work">BROWSE MY WORK</a>
     </div>
     </div>
   </div>
@@ -24,10 +94,10 @@
         </div>
         <div class="gutter pad-t">
           <h2 class="push-1-2">Motion Reel</h2>
-          <p class="milli push-1-2">Watch the collection of my best motion pieces I have worked on over the last few years – from personal projects to industry work.</p>
+          <p class="milli push-1-2">Watch the collection of my motion pieces I have worked on over the last few years – from personal projects to industry work.</p>
         </div>
         <div class="island-1-4">
-          <a class="card-btn btn btn-ghost micro push-1-2" href="/motion-reel.html">LEARN MORE</a>
+          <a class="card-btn btn btn-ghost micro push-1-2" href="/motion-reel">LEARN MORE</a>
         </div>
       </div>
     </div>
@@ -46,7 +116,7 @@
           <p class="milli push-1-2">A team coding and design project where we worked with an industry client to create a website for the IoT613 conference.</p>
         </div>
         <div class="island-1-4">
-          <a class="card-btn btn btn-ghost micro push-1-2" href="/iot613-website.html">LEARN MORE</a>
+          <a class="card-btn btn btn-ghost micro push-1-2" href="/iot613-website">LEARN MORE</a>
         </div>
       </div>
     </div>
@@ -65,7 +135,7 @@
           <p class="milli push-1-2">These are just a few of the reports that I worked on for the Canadian Alliance of Student Associations (CASA).</p>
         </div>
         <div class="island-1-4">
-          <a class="card-btn btn btn-ghost micro push-1-2" href="/casa-reports.html">LEARN MORE</a>
+          <a class="card-btn btn btn-ghost micro push-1-2" href="/casa-reports">LEARN MORE</a>
         </div>
       </div>
     </div>
@@ -73,6 +143,30 @@
 
   <div class="home-section-2">
     <p class="adopt-section-text">This is just some of my recent work.<br>Explore the rest of my portfolio.</p>
-    <a class="btn micro" href="#">MY WORK</a>
+    <a class="btn micro" href="/work">MY WORK</a>
   </div>
 </section>
+
+
+  <section id="contact-me" class="text-span-section gutter push-2">
+    <div class="text-span-section-text pad-t pad-b-1-4 ">
+      <p class="max-width push">For contract work inquires, please send an email to:</p>
+      <a class="btn btn-light micro push" href="#">SIMON@CALLSEN.CA</a>
+    </div>
+  </section>
+
+  <section class="footer-nav push">
+    <span>Copyright 2017 Simon Callsen</span>
+
+    <div>
+      <ul class="micro soc-list list-group-inline">
+        <li><a href="#" class="gutter-1-2 footer-link">Vimeo</a></li>
+        <li><a href="#" class="gutter-1-2 footer-link">LinkedIn</a></li>
+        <li><a href="#" class="gutter-1-2 footer-link">Twitter</a></li>
+        <li><a href="#" class="gutter-1-2 footer-link">Behance</a></li>
+      </ul>
+    </div>
+  </section>
+
+</body>
+</html>
